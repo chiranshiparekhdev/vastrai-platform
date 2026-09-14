@@ -1,0 +1,2 @@
+import { PageHeading, EmptyState, PrimaryLink } from "@/components/ui"
+export default function PostersPage() { return <><PageHeading eyebrow="Campaign studio" title="Posters" description="Turn your product visuals into ready-to-share promotional artwork." action={<PrimaryLink href="/app/generate">Create poster</PrimaryLink>} /><EmptyState title="No posters yet" description="Create your first campaign poster after generating a product visual." href="/app/generate" actionLabel="Start a campaign" /></> }

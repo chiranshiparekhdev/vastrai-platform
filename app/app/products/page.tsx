@@ -1,0 +1,2 @@
+import { PageHeading, EmptyState, PrimaryLink } from "@/components/ui"
+export default function ProductsPage() { return <><PageHeading eyebrow="Catalog" title="Products" description="Keep your ethnic-wear catalog organized and ready for new visuals." action={<PrimaryLink href="/app/products/new">Add product</PrimaryLink>} /><EmptyState title="Your catalog is waiting" description="Add your first saree, kurta, or collection piece to begin creating with VastrAI." href="/app/products/new" actionLabel="Add your first product" /></> }

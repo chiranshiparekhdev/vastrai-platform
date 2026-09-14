@@ -1,0 +1,2 @@
+import { PageHeading, EmptyState } from "@/components/ui"
+export default function GeneratePage() { return <><PageHeading eyebrow="Creative studio" title="Create a visual" description="Transform a product photo into a polished campaign concept." /><EmptyState title="Ready when you are" description="Choose a product from your catalog to begin. Generation controls will appear here once the API is connected." href="/app/products/new" actionLabel="Add a product first" /></> }

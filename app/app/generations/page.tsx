@@ -1,0 +1,2 @@
+import { PageHeading, EmptyState } from "@/components/ui"
+export default function GenerationsPage() { return <><PageHeading eyebrow="Creative history" title="Generations" description="Review the visuals your studio has created." /><EmptyState title="No generations yet" description="Your completed AI visuals will be collected here for easy reuse." href="/app/generate" actionLabel="Create a visual" /></> }

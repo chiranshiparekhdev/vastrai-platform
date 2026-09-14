@@ -1,0 +1,2 @@
+import { PageHeading, EmptyState } from "@/components/ui"
+export default function AdminPage() { return <><PageHeading eyebrow="Administration" title="Admin workspace" description="Tenant and platform controls will live here." /><EmptyState title="Admin tools are coming next" description="This foundation keeps admin routes separate from the shop workspace and ready for role-aware API data." /></> }
